@@ -1,0 +1,120 @@
+V "GNAT Lib v4.8"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U maps_g%b		maps_g.adb		f770d521 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+U maps_g%s		maps_g.ads		4341d70e BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D maps_g.ads		20171120113230 7b2c22da
+D maps_g.adb		20171120120110 b3cd233e
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 17|1r6 5r24
+X 8 a-string.ads
+16K13*Strings 35e16 17|1r10 5r28
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 17|1w18 5r36
+X 12 a-textio.ads
+49K13*Text_IO 471e16 16|1w10
+X 16 maps_g.ads
+4+9 Key_Type 6r31 10r37 15r41 17r47 32r12 44r13 17|8r36 23r41 42r47
+5+9 Value_Type 10r59 15r59 33r14 45r15 17|8r58 23r59
+6V19 "="{boolean} 6>23 6>27 17|15s23 30s23
+6*23 K1{4+9}
+6*27 K2{4+9}
+7k9*Maps_G 4z9 5z9 6z19 58l5 58e11 17|3b14 78l5 78t11
+8R9*Map 10r23 15r30 17r33 19r29 25r24 49c9 52e14 55r11 17|8r22 23r30 42r33
+. 48r29 54r24
+10U14*Get 10>19 10>28 10<47 11<19 17|8b14 21l8 21t11
+10r19 M{8R9} 17|8b19 12r16
+10*28 Key{4+9} 17|8b27 15r25
+10*47 Value{5+9} 17|8b46 16m13
+11b19 Success{boolean} 17|9b19 13m7 14r17 17m13
+13X4*Full_Map
+15U14*Put 15=19 15>35 15>51 17|23b14 40l8 40t11
+15r19 M{8R9} 17|23b19 27r16 37m10 37r45 38m10 38r22
+15*35 Key{4+9} 17|23b35 30r25 37r33
+15*51 Value{5+9} 17|23b51 31r28 37r38
+17U14*Delete 17=22 17>38 17<57 17|42b14 46l8 46t14
+17r22 M{8R9} 17|42b22
+17*38 Key{4+9} 17|42b38
+17b57 Success{boolean} 17|42b57
+19V13*Map_Length{natural} 19>25 17|48b13 52l8 52t18
+19r25 M{8R9} 17|48b25
+23R9*Cursor 25r36 27r31 29r30 38r26 54c9 57e14 17|54r36 60r31 66r30 72r26
+25V13*First{23R9} 25>20 17|54b13 58l8 58t13
+25r20 M{8R9} 17|54b20 57r15 57r18
+27U14*Next 27=20 17|60b14 64l8 64t12
+27r20 C{23R9} 17|60b20
+29V13*Has_Element{boolean} 29>26 17|66b13 70l8 70t19
+29r26 C{23R9} 17|66b26
+31R9*Element_Type 34e14 38r41 17|72r41
+32*7 Key{4+9}
+33*7 Value{5+9}
+36X4*No_Element
+38V13*Element{31R9} 38>22 17|72b13 76l8 76t15
+38r22 C{23R9} 17|72b22 75r15 75r32
+41R9 Cell 42r26 43c9 47e14 17|37r27
+42P9 Cell_A(41R9) 46r14 50r17 56r19 17|10r15 24r15
+44*7 Key{4+9} 17|15r19 30r19 75r27
+45*7 Value{5+9} 17|16r28 31m19 75r44
+46p7 Next{42P9} 17|19r25 34r25
+50p7 P_First{42P9} 17|12r18 27r18 37m12 37r47 57r20
+51i7 Length{natural} 17|38m12 38r24
+55r7 M{8R9}
+56p7 Element_A{42P9} 17|75r16 75r17 75r33 75r34
+X 17 maps_g.adb
+5K12 ASU=5:36
+10p7 P_Aux{16|42P9} 12m7 14r29 15r13 16r22 19m10 19r19
+24p7 P_Aux{16|42P9} 27m7 29r29 30r13 31m13 31r13 34m10 34r19
+25b7 Success{boolean} 28m7 29r17 32m13 36r14
+

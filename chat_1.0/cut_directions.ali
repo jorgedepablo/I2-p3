@@ -1,0 +1,82 @@
+V "GNAT Lib v4.8"
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U cut_directions%b	cut_directions.adb	28d6fb4e NE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U cut_directions%s	cut_directions.ads	305f9648 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-unccon.ads		20070406091342 f9eb8f06
+D cut_directions.ads	20171123180441 0fce428d
+D cut_directions.adb	20171123180646 2718b9c3
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-conca3.ads		20090420091404 762a026a
+D s-exctab.ads		20090417131547 66e51330
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 5r24
+X 7 a-string.ads
+16K13*Strings 35e16 12|1r10 5r28
+X 9 a-strunb.ads
+76K21*Unbounded 489e26 12|1w18 5r36
+79R9*Unbounded_String 473e14 12|7r50 13|3r50 5r19 6r17
+84V13*Length{natural} 13|9s43 13s40 15s37
+94V13*To_Unbounded_String{79R9} 13|16s24
+100V13*To_String{string} 13|16s49 16s75
+230V13*Index{natural} 13|8s25 10s25 12s25 14s25
+396V13*Head{79R9} 13|11s19
+406V13*Tail{79R9} 13|9s24 13s21 15s21
+X 12 cut_directions.ads
+3K9*Cut_Directions 9l5 9e19 13|1b14 19l5 19t19
+5K12*ASU=5:36 7r46 13|3r46 5r15 6r13 8r21 9r20 9r39 10r21 11r15 12r21 13r17
+. 13r36 14r21 15r17 15r33 16r20 16r45 16r71
+7U14*Client_Address 7=30 13|3b14 17l9 17t23
+7r30 Address{9|79R9} 13|3b30 8r32 9m9 9r30 9r50 10r32 11r25 12r32 13r27 13r47
+. 16m9
+X 13 cut_directions.adb
+4i9 Posicion{natural} 8m9 9r60 10m9 11r34 12m9 13r56 14m9 15r51
+5r9 Port{9|79R9} 13m9 14r32 15m9 15r27 15r44 16r85
+6r9 IP{9|79R9} 11m9 16r59
+

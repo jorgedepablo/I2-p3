@@ -1,0 +1,21 @@
+                            LEEME
+   		  Contenidos del directorio
+
+                        Noviembre 2015
+
+
+
+Los ficheros maps_g.ads y maps_g.adb exportan el tipo abstracto de datos (TAD)
+tabla de símbolos, implementado con una lista enlazada en la que 
+cada nodo está constituido por una pareja (Key, Value), ambos de tipo 
+Ada.Strings.Unbounded.Unbounded_String. 
+
+El paquete es un genérico, debiendo instanciarse proporcionando el tipo
+de la clave y del valor, una función para comparar si dos claves son iguales y 
+dos funciones para convertir a String el tipo de la clave y el tipo del valor.
+
+La interfaz del tipo Cursor permite iterar sobre todos los elementos.
+
+
+
+

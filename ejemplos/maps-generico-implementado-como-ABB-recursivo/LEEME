@@ -1,0 +1,20 @@
+                            LEEME
+   		  Contenidos del directorio
+
+                        Noviembre 2011
+
+
+
+Los ficheros maps.ads y maps.adb exportan el tipo abstracto de datos (TAD)
+tabla de símbolos, implementado con un árbol de búsqueda binaria en el que 
+cada nodo está constituido por una pareja (Key, Value).
+
+El paquete es un genérico, debiendo instanciarse proporcionando el
+tipo de la clave y del valor, 3 funciones para comparar claves (=, <,
+>) y dos funciones para convertir a String el tipo de la clave y el
+tipo del valor.
+
+
+
+
+

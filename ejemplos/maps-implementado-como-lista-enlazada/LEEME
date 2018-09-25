@@ -1,0 +1,18 @@
+                            LEEME
+   		  Contenidos del directorio
+
+                        Noviembre 2015
+
+
+
+Los ficheros maps.ads y maps.adb exportan el tipo abstracto de datos (TAD)
+tabla de símbolos, implementado con una lista enlazada en la que 
+cada nodo está constituido por una pareja (Key, Value), ambos de tipo 
+Ada.Strings.Unbounded.Unbounded_String. 
+
+La interfaz del tipo Cursor permite iterar sobre todos los elementos.
+
+El programa maps_test es un ejemplo de uso del paquete.
+
+
+

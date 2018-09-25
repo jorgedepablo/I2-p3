@@ -1,0 +1,120 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+
+U maps_test%b		maps_test.adb		70cf0f6b NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W maps%s		maps.adb		maps.ali
+W pantalla%s		pantalla.adb		pantalla.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-suteio.ads		20090409150019 26d8e9aa
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D maps.ads		20171102100244 43977b48
+D maps_test.adb		20171102100244 7f2761fb
+D pantalla.ads		20171102100244 6d5bdd63
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-conca5.ads		20090420091404 1039cea1
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 18|3r6 4r6 5r6 9r25 10r25 11r27 25r7 30r34 41r7 51r34
+X 8 a-string.ads
+16K13*Strings 35e16 18|4r10 5r10 9r29 11r31
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 18|4w18 5r18 9r37 11r39
+79R9*Unbounded_String 473e14 18|12r17 19r15 36r15
+94V13*To_Unbounded_String{79R9} 18|30s14 32s30 48s28 49s21 51s14
+X 11 a-suteio.ads
+39K31*Text_IO 61e34 18|5w28 11r49
+X 13 a-textio.ads
+49K13*Text_IO 471e16 18|3w10 10r29 25r11 30r38 41r11 51r38
+256V13*Get_Line{string} 18|30s46 51s46
+263U14*Put_Line 18|25s19 41s19
+X 17 maps.ads
+10K9*Maps 50e9 18|6w6 16r12 28r7 32r7 46r7 48r7
+15P12*Map(40R9) 18|16r17
+23U14*Put 18|48s12
+27U14*Delete 18|32s12
+36U14*Draw_Tree 18|28s12 46s12
+X 18 maps_test.adb
+8U11*Maps_Test 8b11 97l5 97t14
+9K12 ASU=9:37 12r13 19r11 30r10 32r26 36r11 48r24 49r17 51r10
+10K12 ATIO=10:29
+11K12 ASUTIO=11:49
+14b4 Success{boolean} 32m56
+16p4 A_Map{17|15P12} 28r22 32m19 32r19 46r22 48m17 48r17
+18U14 Borrar 18b14 18>22 33l8 33t14 76s4 77s4 78s4 79s4 80s4 81s4 82s4 83s4
+. 84s4 85s4 86s4 87s4
+18s22 Key{string} 25r56 32r50
+19r7 S{10|79R9} 30m7
+35U14 Insertar 35b14 35>24 35>37 53l8 53t16 58s4 59s4 60s4 61s4 62s4 63s4
+. 64s4 65s4 66s4 67s4 68s4 69s4 70s4 71s4
+35s24 key{string} 41r56 48r49
+35s37 Value{string} 41r69 49r42
+36r7 S{10|79R9} 51m7
+X 19 pantalla.ads
+11K9*Pantalla 18|1w6 22r7 23r7 23r30 23r52 24r7 24r29 26r7 26r29 38r7 39r7
+. 39r30 39r52 40r7 40r29 44r7 44r29 94r4 19|39e13
+13I12*T_Fila{positive} 18|23r39 39r39
+14I12*T_Columna{positive} 18|23r61 39r61
+16n21*Verde{16E9} 18|40r38
+16n28*Rojo{16E9} 18|24r38
+17n21*Blanco{16E9} 18|26r38 44r38
+27U14*Poner_Color 18|24s16 26s16 40s16 44s16
+34U14*Borrar 18|22s16 38s16 94s13
+35U14*Mover_Cursor 18|23s16 39s16
+

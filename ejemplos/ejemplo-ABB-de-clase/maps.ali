@@ -1,0 +1,190 @@
+V "GNAT Lib v4.8"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U maps%b		maps.adb		660136ee NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W pantalla%s		pantalla.adb		pantalla.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U maps%s		maps.ads		115d72ee EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W pantalla%s		pantalla.adb		pantalla.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-suteio.ads		20090409150019 26d8e9aa
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D maps.ads		20171102100244 43977b48
+D maps.adb		20171102100244 56788cbb
+D pantalla.ads		20171102100244 6d5bdd63
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 17|2r6 11r24 18|3r6 4r6 7r26 30r13 32r13 73r39 244r7 245r7
+X 8 a-string.ads
+16K13*Strings 35e16 17|2r10 11r28 18|4r10 7r30
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 17|2w18 11r36 18|4r18 7r38
+79R9*Unbounded_String 473e14 17|18r37 19r37 24r31 25r31 28r40 43r19 44r19
+. 18|9r17 68r14 79r37 80r37 101r31 102r31 159r40
+82r4*Null_Unbounded_String{79R9} 17|43r43 44r43 18|83r20
+94V13*To_Unbounded_String{79R9} 18|73s19
+119V14*"&"{79R9} 18|232s45
+123V14*"&"{79R9} 18|232s38 232s55
+127V14*"&"{79R9} 18|232s30
+166V14*"="{boolean} 18|87s19 108s17 183s16
+178V14*"<"{boolean} 18|112s20 172s14
+202V14*">"{boolean} 18|90s17 114s20 177s14
+X 11 a-suteio.ads
+39K31*Text_IO 61e34 18|4w28 7r48
+55U14*Put_Line 18|37s16 39s16 232s16
+X 13 a-textio.ads
+49K13*Text_IO 471e16 18|3w10 30r17 32r17 73r43 244r11 245r11
+256V13*Get_Line{string} 18|73s51
+263U14*Put_Line 18|30s25 32s25 244s19 245s19
+X 17 maps.ads
+10K9*Maps 50l5 50e9 18|6b14 196r20 255l5 255t9
+11K12*ASU=11:36 18r33 19r33 24r27 25r27 28r36 43r15 43r39 44r15 44r39 18|9r13
+. 68r10 73r15 79r33 80r33 83r16 101r27 102r27 159r36
+15P12*Map(40R9) 17r29 23r34 27r38 32r29 34r29 36r29 41c9 45r15 46r15 18|13r34
+. 53r13 60r29 67r28 78r29 100r34 121r22 121r34 134r29 134r42 135r14 136r11
+. 158r39 161r13 162r15 163r16 215r29 225r30 241r29
+17U14*Get 17>19 18>19 19<19 20<19 18|78b14 91s10 93s10 95l8 95t11
+17p19 M{15P12} 18|78b19 85r10 87r13 88r19 90r19 91r15 93r15
+18r19 Key{10|79R9} 18|79b19 87r21 90r13 91r24 93r23
+19r19 Value{10|79R9} 18|80b19 83m7 88m10 91m29 93m28
+20b19 Success{boolean} 18|81b19 86m10 89m10 91m36 93m35
+23U14*Put 23=19 24>19 25>19 18|100b14 113s13 115s13 118l8 118t11
+23p19 M{15P12} 18|100b19 105r10 106m10 108r19 109r24 110m13 110r13 111r24
+. 112r22 113r18 114r22 115r18
+24r19 Key{10|79R9} 18|101b19 106r30 108r13 112r16 113r26 114r16 115r27
+25r19 Value{10|79R9} 18|102b19 106r35 110r24 113r31 115r32
+27U14*Delete 27=22 28>22 29<22 18|158b14 173s10 178s10 212l8 212t14
+27p22 M{15P12} 18|158b22 167r10 172r16 172r31 173r18 177r16 177r31 178r18
+. 183r10 184r13 185r24 186r22 187r23 188m13 189r16 190r22 191r24 192r23 193m13
+. 195r24 196r30 198m16 198r16 199m16 199r16 200r27 202m13 202r13 202r36 204m13
+. 204r13
+28r22 Key{10|79R9} 18|159b22 172r10 173r26 177r10 178r27 183r18
+29b22 Success{boolean} 18|160b22 165m7 168m10 173m31 178m32
+32V13*Map_Length{natural} 32>25 18|215b13 218s21 218s43 222l8 222t18
+32p25 M{15P12} 18|215b25 217r10 218r33 218r55
+34U14*Print_Map 34>25 18|241b14 248l8 248t17
+34p25 M{15P12} 18|241b25 247r19
+36U14*Draw_Tree 36>25 18|60b14 64l8 64t17
+36p25 M{15P12} 18|60b25 62r17
+40R9 Tree_Node 41r23 42c9 48e14 18|106r19
+43r7*Key{10|79R9} 18|37r33 87r15 90r21 108r21 112r24 114r24 172r18 177r18
+. 183r12 198m18 198r29 232r34
+44r7*Value{10|79R9} 18|39r33 88r21 110m15 199m18 199r31 232r49
+45p7*Left{15P12} 18|20r20 21r31 93r17 113m20 124r12 128r24 145r16 151m16
+. 151r42 172r33 173m20 184r15 190r24 218r35 228r15 229r27
+46p7*Right{15P12} 18|42r20 43r31 91r17 115m20 147r21 177r33 178m20 186r24
+. 189r18 196r32 202m15 202r38 218r57 235r15 236r27
+47e7*Color{19|16E9} 18|36r39 71m12 204m15
+X 18 maps.adb
+7K12 ASUIO=7:48 37r10 39r10 232r10
+13U14 Draw_Tree 13b14 13>25 14>25 15>25 16>25 21s13 43s13 50l8 50t17 57s7
+13p25 P_Tree{17|15P12} 19r10 20r13 21r24 36r32 37r26 39r26 42r13 43r24
+14i25 Fila{19|13I12} 22r24 27r33 34r33 38r33 44r24
+15i25 Columna{19|14I12} 23r24 27r38 34r40 38r40 45r24
+16i25 Level{integer} 23r66 24r31 29r13 31r16 45r66 46r28
+53p4 P_Root{17|15P12} 57r18 62m7
+55U14 Draw_Tree 55b14 58l8 58t17 63s7 72s10
+67U14 Draw_Node 67b14 67>25 67>33 75l8 75t17 109s13 111s13 125s10 146s10
+. 185s13 191s13 195s13 200s16
+67p25 M{17|15P12} 70r10 71m10 71r10
+67e33 Color{19|16E9} 71r21
+68r7 S{10|79R9} 73m10
+121V13 Min{17|15P12} 121b13 121>18 128s17 131l8 131t11 196s25
+121p18 M{17|15P12} 124r10 125r21 126r17 128r22
+134V13 Delete_Min{17|15P12} 134b13 134>25 151s24 155l8 155t18 202s24
+134p25 M{17|15P12} 139r16 146r21
+135p7 P_Aux{17|15P12} 139m7 141r10 145r10 147r15 148m10 151m10 151r10 151r36
+. 152r17
+136p7 P{17|15P12} 147m10 149r17
+161p7 Min{17|15P12} 196m13 197r16 198r25 199r27
+162p7 P_Aux{17|15P12} 186m13 188r18 190m13 193r18
+163p7 P_Free{17|15P12} 187m13 192m13
+225U14 Print_Tree 225b14 225>26 229s13 236s13 239l8 239t18 247s7
+225p26 M{17|15P12} 227r10 228r13 229r25 232r32 232r47 235r13 236r25
+X 19 pantalla.ads
+11K9*Pantalla 17|1w6 47r15 18|1w6 14r32 15r35 23r34 27r10 34r10 36r10 38r10
+. 40r10 40r32 45r34 57r29 67r40 106r54 109r27 111r27 125r24 146r24 185r27
+. 191r27 195r27 200r30 204r24 243r7 243r30 243r56 19|39e13
+13I12*T_Fila{positive} 18|14r41 243r39
+14I12*T_Columna{positive} 18|15r44 23r43 45r43 57r38 243r65
+16E9*T_Color 17|47r24 18|67r49 19|17e57
+16n28*Rojo{16E9} 18|146r33 185r36 191r36 195r36
+16n34*Amarillo{16E9} 18|125r33 200r39
+16n44*Azul{16E9} 18|109r36
+17n21*Blanco{16E9} 18|40r41 106r63 111r36 204r33
+27U14*Poner_Color 18|36s19 40s19
+35U14*Mover_Cursor 18|27s19 34s19 38s19 243s16
+

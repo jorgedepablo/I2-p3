@@ -1,0 +1,42 @@
+                            LEEME
+   		  Contenidos del directorio
+
+                       Noviembre 2011
+
+
+El fichero maps_test utiliza un árbol de búsqueda binaria (ABB) 
+para insertar y borrar nodos. Es el programa que se utiliza en 
+clase para ilustrar el funcionamiento del ABB. 
+
+Para visualizar correctamente la salida de este programa es necesario que 
+maximices la ventana en la que lo ejecutes. El color de fondo de la ventana 
+debe ser negro.
+
+Código de colores: 
+- blanco  : nodo que se ha insertado
+- azul    : nodo del árbol con igual clave a un nodo que se va a
+            insertar. Será substituido por (Key,Value) del nodo que se
+            va a insertar a continuación.
+- rojo    : nodo que se va a borrar
+- amarillo: cuando se va a borrar un nodo j que tiene dos subárboles
+            hijos aparecen coloreados en este orden los siguientes nodos:
+            1. en rojo j
+            2. en amarillo el nodo succ (j)
+            3. en amarillo el nodo j tras habérsele copiado succ(j).(key,value)
+            4. en rojo succ(j) antes de borrarlo
+            5. en blanco j
+
+Tras descargar el programa hay que darle permisos de ejecución antes
+de ejecutarlo por primera vez:
+
+  chmod +x maps_test
+
+Este programa funciona en los ordenadores de la Universidad. Si no
+puedes ejecutarlo en tu ordenador personal puedes ejecutarlo
+remotamente en los ordenadores de la Universidad conectándote a
+cualquiera de ellos utilizando ssh.
+
+Para compilarlo es necesario utilizar los ficheros pantalla.ads y pantalla.adb
+que se proporcionan en esta carpeta.
+
+ 
